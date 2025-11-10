@@ -1,8 +1,8 @@
-# Zelta - HackoMimi
+# Zelta - Hacko
 
-**Zelta - HackoMimi** is a lightweight Android security library designed to protect your applications from tampering, reverse engineering, and running on rooted devices.
+**Zelta - Hacko** is a lightweight Android security library designed to protect your applications from tampering, reverse engineering, and running on rooted devices.
 
-> Developed by **Shoukaku0x7** & **Vynie7**
+> Developed by **Shoukaku0x7** or **Vynie7**
 
 ---
 
@@ -23,7 +23,7 @@
 If you're using Git, it's recommended to add this library as a submodule from your project root directory:
 
 ```bash
-$ git submodule add https://github.com/Vynie7/ZeltaHackoMimi ZeltaHackoMimi
+$ git submodule add https://github.com/Vynie7/ZeltaHacko ZeltaHacko
 $ git submodule update --init --recursive
 ```
 
@@ -34,15 +34,15 @@ You must add this (in your `settings.gradle` or `settings.gradle.kts`):
 ```gradle
 //...
 
-include(":ZeltaHackoMimi")
+include(":ZeltaHacko")
 ```
 
 In your main application in your `build.gradle` or `build.gradle.kts`, you must add:
 
 ```kotlin
-implementation project(":ZeltaHackoMimi") // if modularized
+implementation project(":ZeltaHacko") // if modularized
 // OR
-implementation(project(":ZeltaHackoMimi"))
+implementation(project(":ZeltaHacko"))
 ```
 
 ---
